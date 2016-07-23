@@ -1,0 +1,11 @@
+- plus en min op batterij
+-batterijpins dikker
+-nanopins dikker
+-nrf pins dikker
+-polariteit duidelijk bij C1
+- naamgeving componenten
+-polariteit en vakjes voor jumpers
+-optioneel 3v3 van arduino 
+-3v3 direct van batterij naar nrf
+-pins van NRF op juiste pins...
+-uitzoeken voeden van arduino via batterij

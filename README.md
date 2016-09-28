@@ -1,5 +1,7 @@
 # MysensorNode
-A MySensor node that uses an NTF24l01+ wireless unit to connect to the gateway. We use an Arduino Nano. 
+A MySensor node that uses an NTF24l01+ wireless unit to connect to the gateway. We use an Arduino Nano. In this repository you'll find the files i used to design the PCB (KiCad). Unless you're planning to produce your own boards, you don't need those files. 
+
+If you use this board, it means you've connected your Arduino Nano to your NRF24L01+. Also the pins of the Nano are broken out (at the side of the Nano), so you can easily solder wires to them or even use some fancy headers to connect your creations. 
 
 # Why use an arduino Nano instead of the Pro mini? 
 Okay, this is a tradeoff between usability and energy-consumption. The pro mini is way better in terms of size and energy-consumption - it doesn't have the usb-controller - but is a lot harder for beginners to program, and using an FTDI-cable might be a bit scary for beginning users. 

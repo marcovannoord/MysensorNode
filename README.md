@@ -11,6 +11,8 @@ If you wanna save energy , just cut the powertraces for the usb-serial chip. If 
 # Getting started: getting mysensors working
 After you made yourself familiar with the mySensors system https://www.mysensors.org , you figured you need a gateway and of course some nodes to which you connect sensors.
 
+##Warning: Install the library from the MySensors.zip i attached in this repo.
+
 1. Solder female headers on the PCB, exactly where the Arduino Nano is supposed to be and also where the NRF24L01+ should connect. This way you can always remove the nano for testing purposes.
 2. Connect the two pins next to "Nano3v3 to NRF" to each other, which will supply the wireless chip with some juice.
 3. solder a 47uF electrolythic condensator to C1. Make sure that the "-" of the ElCo faces the same side as the "-" on the PCB.
@@ -20,3 +22,8 @@ After you made yourself familiar with the mySensors system https://www.mysensors
 7. Connect the serial gateway to a Controller (i advice https://www.mysensors.org/controller/mynodesnet or Domoticz) and you're ready to receive data!
 
 After powering on your wireless node, it will search for an active controller in the network, which it will ask a unique device id; it will store that internally in its EEPROM. It will be saved even after losing power. Now you can send data to the controller. Using default settings, you can send/receive approximately 200 messages per second.
+
+#FAQ:
+
+Q: i get an error compiling the system can't find MySensors.h
+A: in your sketch, change the reference from mysensors.h to MySensor.h (so remove the "s").

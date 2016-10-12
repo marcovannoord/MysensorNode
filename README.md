@@ -19,7 +19,7 @@ After you made yourself familiar with the mySensors system https://www.mysensors
 4. Plug in the Arduino Nano (USB connector should be slightly sticking out) and the NRF24L01+(not sticking out).
 5. Plug in the USB, and upload the "SerialGateway" sketch from the MySensors arduino library (https://www.mysensors.org/build/serial_gateway). 
 6. Make any of the sensors, for example https://www.mysensors.org/build/binary . 
-7. Connect the serial gateway to a Controller (i advice https://www.mysensors.org/controller/mynodesnet or Domoticz) and you're ready to receive data!
+7. Connect the serial gateway to a Controller (i advice https://www.mysensors.org/controller/mynodesnet or Domoticz) and you're ready to receive data! (p.s. there's a controller in the greenhouse @ RDM already available, connect to DoosWifi and 
 
 After powering on your wireless node, it will search for an active controller in the network, which it will ask a unique device id; it will store that internally in its EEPROM. It will be saved even after losing power. Now you can send data to the controller. Using default settings, you can send/receive approximately 200 messages per second.
 
